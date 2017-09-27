@@ -1,0 +1,25 @@
+group 'com.appdynamics.test-iot'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    runtime group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    runtime group: 'com.google.guava', name:'guava', version:'18.0'
+    runtime group: 'com.google.code.gson', name: 'gson', version: '2.8.0'
+
+    // The choice of slf4j logging engine is upto the developer
+    // If no binding is found on the class path, then SLF4J will default to a no-operation implementation.
+    // and a console message like this will be seenSLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+    // SLF4J: Defaulting to no-operation (NOP) logger implementation
+    // SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+    // For this sample program we have used a binding to java.util.logging
+    runtime group: 'org.slf4j', name: 'slf4j-jdk14', version: '1.7.25'
+}
