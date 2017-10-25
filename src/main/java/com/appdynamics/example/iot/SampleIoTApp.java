@@ -1,3 +1,4 @@
+package com.appdynamics.example.iot;
 /**
  * Copyright 2017 AppDynamics LLC
  *
@@ -27,7 +28,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-public class SampleIoTJavaTest {
+public class SampleIoTApp {
 
     public static void main(String[] args){
 
