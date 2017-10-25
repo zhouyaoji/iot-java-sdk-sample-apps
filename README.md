@@ -8,5 +8,5 @@ Sample apps using the AppDynamics IoT Java SDK
 
 Compile and run the sample app
 
-You should see traffic on your Controller UI Under User Experience->Connected Devices
+You should see traffic on your Controller UI Under User Experience->Connected Devices.
 For more details check out the official documentation
