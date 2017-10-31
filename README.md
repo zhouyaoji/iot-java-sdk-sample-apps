@@ -37,6 +37,9 @@ Instrumentation Data should show up on the AppDynamics Dashboard under the app c
 **User Experience->Connected Devices Panel**
 
 ## Step 6
-For more details check out the [official documentation](https://docs.appdynamics.com/display/PRO44/IoT+Monitoring)
-Looking to instrument a C++ IoT app? Checkout the sample app [here](https://github.com/Appdynamics/iot-cpp-sample-app)
+For more details check out the [official documentation](https://docs.appdynamics.com/display/PRO44/IoT+Monitoring).
+
+## Finally -
+Are you lookingto instrument a C++ IoT app? Checkout the sample app [here](https://github.com/Appdynamics/iot-cpp-sample-app).
+Questions or comments? Send email to iot@appdynamics.com
 
