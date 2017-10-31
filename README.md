@@ -1,10 +1,10 @@
 ## Sample application using the lightweight AppDynamics IoT Java SDK
 Goal: Instrument a sample IoT application using the AppDynamics IoT Java SDK to report Device Information, Custom Business Events, Network Request Events(HTTPS), and Error Events to the AppDynamics Controller UI.
 
-## Step 1
+## Step 1: Get AppDynamics Account
 If you don't have an AppDynamics Account, create a free account [here](https://www.appdynamics.com/free-trial/)
 
-## Step 2 
+## Step 2: An IoT Application 
 Create a **Connected Devices App**
 
  * Click **User Experience** from the top navigation bar.
@@ -19,10 +19,10 @@ Create a **Connected Devices App**
 
   [See](https://docs.appdynamics.com/display/PRO44/Set+Up+and+Access+IoT+Monitoring#SetUpandAccessIoTMonitoring-iot-app-key) for more details
 
-## Step 3
+## Step 3: Get the SDK
 Download the AppDynamics IoT SDK jar **appd-iot-sdk-4.4.x.jar** file from [download.appdynamics.com](https://download.appdynamics.com/download/)
 
-## Step 4
+## Step 4: Get the Sample App
 * Clone this repository
 
 * Import the project as a Gradle Project in your favorite IDE
@@ -32,12 +32,13 @@ Download the AppDynamics IoT SDK jar **appd-iot-sdk-4.4.x.jar** file from [downl
 
 Compile and run the sample app.
 
-## Step 5
+## Step 5: View Instrumentation Data
 Instrumentation Data should show up on the AppDynamics Dashboard under the app created in **Step 2** under 
 **User Experience->Connected Devices Panel**
 
-## Step 6
+## Step 6: Docs 'n' stuff
 For more details check out the [official documentation](https://docs.appdynamics.com/display/PRO44/IoT+Monitoring).
+Javadocs can be viewed [here](https://docs.appdynamics.com/javadocs/iot-java-sdk/4.4/latest/)
 
 ## Finally -
 Are you lookingto instrument a C++ IoT app? Checkout the sample app [here](https://github.com/Appdynamics/iot-cpp-sample-app).
