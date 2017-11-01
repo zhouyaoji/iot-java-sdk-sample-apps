@@ -42,5 +42,4 @@ Javadocs can be viewed [here](https://docs.appdynamics.com/javadocs/iot-java-sdk
 
 ## Finally -
 Are you looking to instrument a C++ IoT app? Checkout the sample app [here](https://github.com/Appdynamics/iot-cpp-sample-app).
-Questions or comments? Send email to iot@appdynamics.com
 
