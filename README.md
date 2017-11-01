@@ -1,4 +1,4 @@
-## Sample application using the lightweight AppDynamics IoT Java SDK
+## Sample application using the Lightweight AppDynamics IoT Java SDK
 Goal: Instrument a sample IoT application using the AppDynamics IoT Java SDK to report Device Information, Custom Business Events, Network Request Events(HTTPS), and Error Events to the AppDynamics Controller UI.
 
 ## Step 1: Get AppDynamics Account
